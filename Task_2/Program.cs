@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.IO;
 using Library;
-using System.Threading;
-using System.Threading.Tasks;
-
 namespace Task_2
 {
+    /// <summary>
+    /// Atention! You should copy or create new file "settings.json" in \bin\Debug\netcoreapp3.1 
+    /// after building and before running program. Otherwise, you will get FileNotFoundException
+    /// in auto-generated file "result.json"
+    /// </summary>
     class Program
-    {
-        
+    {       
         static void Main(string[] args)
         {
             var exception = "null";

@@ -17,7 +17,7 @@ namespace Task_3
             Run();
             TearDown();            
         }
-        private static string Generate(int length)
+        /*private static string Generate(int length)
         {
             string symbols = "abcdefghigklmnopqrstuvwxyz";
             symbols += symbols.ToUpper() + "01234567789";
@@ -27,7 +27,7 @@ namespace Task_3
                 s += symbols[new Random().Next(symbols.Length)];
             }
             return s;
-        }
+        }*/
         private static void Run()
         {
             ThreadPool.GetMinThreads(out int minThreads, out _);

@@ -1,0 +1,30 @@
+[
+  {
+    "primesFrom": -10,
+    "primesTo": 10000
+  },
+  {
+    "primesFrom": 5000,
+    "primesTo": 30000
+  },
+  {
+    "primesFrom": 30000,
+    "primesTo": 40000
+  },
+  {
+    "primesFrom": 40000,
+    "primesTo": 50000
+  },
+  {
+    "primesFrom": 50000,
+    "primesTo": 60000
+  },
+  {
+    "primesFrom": 60000,
+    "primesTo": 70000
+  },
+  {
+    "primesFrom": 70000,
+    "primesTo": 80000
+  }
+]
